@@ -22,7 +22,7 @@ jobs:
         pip install pyinstaller
  
     - name: Build with PyInstaller
-      run: pyinstaller --onefile specterscan.py
+      run: pyinstaller --onefile SpecterScan/specterscan.py
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
