@@ -1,0 +1,18 @@
+{
+  "ports": "1-1000",
+  "rate": 500,
+  "timeout": 2.0,
+  "decoys": 0,
+  "output": "text",
+  "log_level": "INFO",
+  "scan_type": "syn",
+  "retries": 1,
+  "workers": 100,
+  "fragment": false,
+  "adaptive_rate": false,
+  "service_detection": false,
+  "banner": false,
+  "resolve": false,
+  "discover_hosts": false,
+  "plugins_dir": "plugins"
+}
